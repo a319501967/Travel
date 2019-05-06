@@ -1,0 +1,116 @@
+<!-- 头部 start -->
+<script  src="js/getParameter.js"></script>
+<script>
+    $(function () {
+        $.post("user/getName", {}, function (data) {
+
+            if (data!=null) {
+                var line = "欢迎回来 " + data.name;
+                $("#welcome_code").html(line);
+
+                if (data.name != null) {
+                    $("#exit").click(function () {
+                        var flag = confirm("确认退出吗？不再看看喽？");
+                        if (flag) {
+                            $.get("user/exit", {}, {});
+                        }
+                    })
+
+                }
+            }
+        });
+
+        //    获取数据 显示
+        /*
+        * [{"cid":0,"cname":"门票"},{"cid":0,"cname":"酒店"},{"cid":0,"cname":"香港车票"*/
+        $.post("category/findAll", {}, function (data) {
+
+            //    返回的数据是数组 进行遍历添加到ul中
+            var line = '<li ><a href="index.html">首页</a></li>';
+
+            for (var i = 0; i < data.length; i++) {
+                line += '<li ><a href="route_list.html?cid='+data[i].cid+'">' + data[i].cname + '</a></li>';
+            }
+            // line += '<li><a href="favoriterank.html">收藏排行榜</a></li>';
+            $("#categoryUl").html(line);
+
+        });
+
+
+    //    搜索按钮被点击 获取值 并将值填写到路径中跳转到route_list.html?
+        $("#search").click(function () {
+        //    获取值
+             var rname = $("#search_input").val();
+            var cid = getParameter("cid");
+            location.href="route_list.html?cid="+cid+"&rname="+rname;
+        })
+
+        $("#myFavorite").click(function () {
+            $.post("user/getName",{},function (user) {
+                if (user==null){
+                    //没有登录
+                    alert("您还没有登录？请登录呦");
+                    location.href="login.html";
+                }else {
+                     location.href="myfavorite.html";
+                }
+            })
+        })
+    });
+</script>
+<header id="header">
+    <div class="top_banner">
+        <a href="route_detail.html?rid=189"><img src="images/top_banner.jpg" alt=""></a>
+    </div>
+    <div class="shortcut">
+        <!-- 未登录状态  -->
+        <div class="login_out">
+            <a href="login.html">登录</a>
+            <a href="register.html">注册</a>
+        </div>
+        <!-- 登录状态  -->
+        <div class="login">
+
+            <span id="welcome_code"></span>
+            <a href="#" class="collection" id="myFavorite" >我的收藏</a>
+            <a href="" id="exit">退出</a>
+        </div>
+    </div>
+    <div class="header_wrap">
+        <div class="topbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            </div>
+            <div class="search">
+                <input name="" type="text" id="search_input" placeholder="请输入路线名称" class="search_input" autocomplete="off">
+                <a href="javascript:;" class="search-button" id="search">搜索</a>
+            </div>
+            <div class="hottel">
+                <div class="hot_pic">
+                    <img src="images/hot_tel.jpg" alt="">
+                </div>
+                <div class="hot_tel">
+                    <p class="hot_time">客服热线(9:00-6:00)</p>
+                    <p class="hot_num">400-618-9090</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- 头部 end -->
+<!-- 首页导航 -->
+<div class="navitem">
+    <ul class="nav" id="categoryUl">
+        <!--   <li class="nav-active"><a href="index.html">首页</a></li>
+           <li><a href="route_list.html">门票</a></li>
+           <li><a href="route_list.html">酒店</a></li>
+           <li><a href="route_list.html">香港车票</a></li>
+           <li><a href="route_list.html">出境游</a></li>
+           <li><a href="route_list.html">国内游</a></li>
+           <li><a href="route_list.html">港澳游</a></li>
+           <li><a href="route_list.html">抱团定制</a></li>
+           <li><a href="route_list.html">全球自由行</a></li>
+           <li><a href="favoriterank.html">收藏排行榜</a></li>-->
+    </ul>
+</div>
+    

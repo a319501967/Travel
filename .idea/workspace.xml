@@ -1,0 +1,1823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22b7024e-bf08-4c33-bcea-45a5a42bf596" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>service</find>
+      <find>UserServiceImpl()</find>
+      <find>servlet</find>
+      <find>user</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/CheckCodeServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/util/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/util/MailUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/activate_ok.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/common.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/register.css" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/ActivateServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/getNameServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/ExitServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/register.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/CategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/Route.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/PageBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/CategoryDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/RouteImgDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/RouteImgDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/SellerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/SellerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/route_list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/activate_ok.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/RouteService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/FavoriteDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/FavoriteDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/RouteDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/RouteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/myfavorite.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/header.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/route_detail.html" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/RouteDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/RouteServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/CategoryServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="travel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="travel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="travel" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-158" />
+    <option name="y" value="319" />
+    <option name="width" value="1785" />
+    <option name="height" value="1071" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="travel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CZQYY\IdeaProjects\javaweb_study2\travel\src\main\webapp" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.itcast.travel.dao.impl" />
+      <recent name="cn.itcast.travel.dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.tomcat">
+    <configuration name="FavoriteDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.travel.dao.impl.FavoriteDaoImpl" />
+      <module name="travel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.travel.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.travel.util.MailUtils" />
+      <module name="travel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.travel.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.travel.dao.impl.RouteDaoImpl" />
+      <module name="travel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.travel.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RouteDaoImpl" />
+        <item itemvalue="Application.FavoriteDaoImpl" />
+        <item itemvalue="Application.MailUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22b7024e-bf08-4c33-bcea-45a5a42bf596" name="Default Changelist" comment="" />
+      <created>1556000495334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556000495334</updated>
+      <workItem from="1556000496709" duration="165000" />
+      <workItem from="1556000703806" duration="11703000" />
+      <workItem from="1556015583221" duration="2570000" />
+      <workItem from="1556021154805" duration="4870000" />
+      <workItem from="1556066619305" duration="10606000" />
+      <workItem from="1556106172994" duration="4006000" />
+      <workItem from="1556176713742" duration="10263000" />
+      <workItem from="1556194325214" duration="3840000" />
+      <workItem from="1556257831250" duration="15738000" />
+      <workItem from="1556277639705" duration="6316000" />
+      <workItem from="1556344638395" duration="8916000" />
+      <workItem from="1556362898965" duration="1994000" />
+      <workItem from="1556517836193" duration="9629000" />
+      <workItem from="1556534490390" duration="6871000" />
+      <workItem from="1556542277906" duration="1202000" />
+      <workItem from="1556543531466" duration="154000" />
+      <workItem from="1556694472273" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="98860000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8277311" visible="true" weight="0.24518272" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.17226891" side_tool="true" weight="0.15813954" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49719888" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32913166" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24983388" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32956812" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/banner_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/top_banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/route_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3451">
+          <caret line="119" column="84" selection-start-line="119" selection-start-column="84" selection-end-line="119" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/jiangxuan_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/jiangwai_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/icon_7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/icon_6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/guonei_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/Favorite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/favoriterank.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/activate_ok.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/domain/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/RouteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1525">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/SellerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="16" column="107" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/CategoryDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.3/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="106" column="3" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/4.1.2.RELEASE/spring-jdbc-4.1.2.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-jdbc/4.1.2.RELEASE/spring-jdbc-4.1.2.RELEASE.jar!/org/springframework/jdbc/core/RowMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/RouteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="112" column="27" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/collection_pic.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/myfavorite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="74" column="37" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/CheckCodeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4814">
+          <caret line="223" column="38" selection-start-line="223" selection-start-column="38" selection-end-line="223" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/RouteDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="104" column="41" lean-forward="true" selection-start-line="104" selection-start-column="41" selection-end-line="104" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/route_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="176" column="52" selection-start-line="176" selection-start-column="52" selection-end-line="176" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-406">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/RouteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="144" column="9" lean-forward="true" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/web/servlet/CategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/RouteImgDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.travel.dao.impl.FavoriteDaoImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.travel.dao.impl.FavoriteDaoImpl</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.itcast.travel.dao.impl.FavoriteDaoImpl</node>
+            <node x="" y="">cn.itcast.travel.dao.FavoriteDao</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="96.0" y="64.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/FavoriteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/impl/FavoriteDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.travel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.travel</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.itcast.travel.web</node>
+            <node x="" y="">cn.itcast.travel.service</node>
+            <node x="" y="">cn.itcast.travel.util</node>
+            <node x="" y="">cn.itcast.travel.dao</node>
+            <node x="" y="">cn.itcast.travel.domain</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="159.0" y="146.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-travel">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-travel</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-travel</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="11.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main</OriginalElement>
+          <nodes>
+            <node x="826.0" y="329.0">$PROJECT_DIR$/src/main/webapp/images/04-search_09.jpg</node>
+            <node x="1097.0" y="1190.0">$PROJECT_DIR$/src/main/webapp/activate_ok.html</node>
+            <node x="708.0" y="1551.0">$PROJECT_DIR$/src/main/webapp/images/banner_1.jpg</node>
+            <node x="368.0" y="1627.0">$PROJECT_DIR$/src/main/webapp/images/banner_2.jpg</node>
+            <node x="538.0" y="1382.0">$PROJECT_DIR$/src/main/webapp/images/banner_3.jpg</node>
+            <node x="639.0" y="694.0">$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css</node>
+            <node x="852.0" y="1222.0">$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js</node>
+            <node x="868.0" y="982.0">$PROJECT_DIR$/src/main/webapp/css/common.css</node>
+            <node x="580.0" y="895.0">$PROJECT_DIR$/src/main/webapp/favoriterank.html</node>
+            <node x="792.0" y="1827.0">$PROJECT_DIR$/src/main/webapp/footer.html</node>
+            <node x="1105.0" y="474.0">$PROJECT_DIR$/src/main/webapp/js/getParameter.js</node>
+            <node x="288.0" y="1112.0">$PROJECT_DIR$/src/main/webapp/images/guonei_1.jpg</node>
+            <node x="1197.0" y="229.0">$PROJECT_DIR$/src/main/webapp/header.html</node>
+            <node x="1275.0" y="0.0">$PROJECT_DIR$/src/main/webapp/images/hot_tel.jpg</node>
+            <node x="905.0" y="1963.0">$PROJECT_DIR$/src/main/webapp/images/icon_1.jpg</node>
+            <node x="668.0" y="1718.0">$PROJECT_DIR$/src/main/webapp/images/icon_2.jpg</node>
+            <node x="903.0" y="1715.0">$PROJECT_DIR$/src/main/webapp/images/icon_3.jpg</node>
+            <node x="654.0" y="1977.0">$PROJECT_DIR$/src/main/webapp/images/icon_4.jpg</node>
+            <node x="710.0" y="1302.0">$PROJECT_DIR$/src/main/webapp/images/icon_5.jpg</node>
+            <node x="164.0" y="907.0">$PROJECT_DIR$/src/main/webapp/images/icon_6.jpg</node>
+            <node x="613.0" y="1631.0">$PROJECT_DIR$/src/main/webapp/images/icon_7.jpg</node>
+            <node x="1007.0" y="1062.0">$PROJECT_DIR$/src/main/webapp/js/include.js</node>
+            <node x="450.0" y="993.0">$PROJECT_DIR$/src/main/webapp/css/index.css</node>
+            <node x="538.0" y="1172.0">$PROJECT_DIR$/src/main/webapp/index.html</node>
+            <node x="65.0" y="1421.0">$PROJECT_DIR$/src/main/webapp/images/jiangwai_1.jpg</node>
+            <node x="360.0" y="1462.0">$PROJECT_DIR$/src/main/webapp/images/jiangxuan_1.jpg</node>
+            <node x="0.0" y="1181.0">$PROJECT_DIR$/src/main/webapp/images/jiangxuan_2.jpg</node>
+            <node x="321.0" y="794.0">$PROJECT_DIR$/src/main/webapp/images/jiangxuan_4.jpg</node>
+            <node x="1508.0" y="1098.0">$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.0.min.js</node>
+            <node x="848.0" y="1142.0">$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js</node>
+            <node x="1275.0" y="1434.0">$PROJECT_DIR$/src/main/webapp/css/login.css</node>
+            <node x="1194.0" y="1110.0">$PROJECT_DIR$/src/main/webapp/login.html</node>
+            <node x="1462.0" y="1385.0">$PROJECT_DIR$/src/main/webapp/images/login_logo.png</node>
+            <node x="1009.0" y="84.0">$PROJECT_DIR$/src/main/webapp/images/logo.jpg</node>
+            <node x="809.0" y="805.0">$PROJECT_DIR$/src/main/webapp/myfavorite.html</node>
+            <node x="253.0" y="1816.0">$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;</node>
+            <node x="400.0" y="540.0">$PROJECT_DIR$/src/main/webapp/css/ranking-list.css</node>
+            <node x="981.0" y="1616.0">$PROJECT_DIR$/src/main/webapp/css/register.css</node>
+            <node x="1035.0" y="1325.0">$PROJECT_DIR$/src/main/webapp/register.html</node>
+            <node x="838.0" y="1405.0">$PROJECT_DIR$/src/main/webapp/register_ok.html</node>
+            <node x="1341.0" y="484.0">$PROJECT_DIR$/src/main/webapp/css/route-detail.css</node>
+            <node x="1083.0" y="829.0">$PROJECT_DIR$/src/main/webapp/route_detail.html</node>
+            <node x="904.0" y="661.0">$PROJECT_DIR$/src/main/webapp/route_list.html</node>
+            <node x="1272.0" y="748.0">$PROJECT_DIR$/src/main/webapp/css/search.css</node>
+            <node x="645.0" y="425.0">$PROJECT_DIR$/src/main/webapp/images/search.png</node>
+            <node x="1459.0" y="248.0">$PROJECT_DIR$/src/main/webapp/images/top_banner.jpg</node>
+            <node x="47.0" y="2022.0">affix.js</node>
+            <node x="347.0" y="2224.0">alert.js</node>
+            <node x="207.0" y="2172.0">button.js</node>
+            <node x="416.0" y="2144.0">carousel.js</node>
+            <node x="1395.0" y="1221.0">checkCodeServlet</node>
+            <node x="85.0" y="1817.0">collapse.js</node>
+            <node x="274.0" y="1715.0">dropdown.js</node>
+            <node x="1469.0" y="758.0">http://www.jinmalvyou.com/Public/uploads/goods_img/img_size4/201703/m49788843d72171643297ccc033d9288ee.jpg</node>
+            <node x="1395.0" y="957.0">js/angular.min.js</node>
+            <node x="482.0" y="2026.0">modal.js</node>
+            <node x="433.0" y="1753.0">popover.js</node>
+            <node x="481.0" y="1879.0">scrollspy.js</node>
+            <node x="161.0" y="1728.0">tab.js</node>
+            <node x="0.0" y="1902.0">tooltip.js</node>
+            <node x="29.0" y="2147.0">transition.js</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="checkCodeServlet">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/js/getParameter.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/css/ranking-list.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/activate_ok.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="checkCodeServlet">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="dropdown.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register_ok.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register_ok.html" target="$PROJECT_DIR$/src/main/webapp/css/register.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="transition.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangxuan_4.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="affix.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="$PROJECT_DIR$/src/main/webapp/css/register.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/header.html" target="$PROJECT_DIR$/src/main/webapp/images/hot_tel.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/css/index.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_7.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangxuan_4.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register_ok.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/banner_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="alert.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.0.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/images/login_logo.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_6.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/footer.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/header.html" target="$PROJECT_DIR$/src/main/webapp/images/top_banner.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/banner_3.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/header.html" target="$PROJECT_DIR$/src/main/webapp/images/logo.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="popover.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/css/search.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/banner_2.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/css/login.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_5.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/header.html" target="$PROJECT_DIR$/src/main/webapp/js/getParameter.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangwai_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="js/angular.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="http://www.jinmalvyou.com/Public/uploads/goods_img/img_size4/201703/m49788843d72171643297ccc033d9288ee.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangxuan_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/footer.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_3.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/css/route-detail.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/footer.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_2.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="modal.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/images/04-search_09.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_5.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangxuan_2.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/js/getParameter.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/guonei_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="button.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/css/index.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register_ok.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="tab.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="tooltip.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="scrollspy.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/images/search.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="carousel.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="collapse.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/footer.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_4.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6899693385895751" x="446.0" y="1733.0" />
+          <SelectedNodes>
+            <node>js/angular.min.js</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/main/webapp</OriginalElement>
+          <nodes>
+            <node x="290.0" y="370.0">$PROJECT_DIR$/src/main/webapp/images/04-search_09.jpg</node>
+            <node x="615.0" y="540.0">$PROJECT_DIR$/src/main/webapp/activate_ok.html</node>
+            <node x="741.0" y="1239.0">$PROJECT_DIR$/src/main/webapp/images/banner_1.jpg</node>
+            <node x="663.0" y="1399.0">$PROJECT_DIR$/src/main/webapp/images/banner_2.jpg</node>
+            <node x="116.0" y="1222.0">$PROJECT_DIR$/src/main/webapp/images/banner_3.jpg</node>
+            <node x="777.0" y="964.0">$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css</node>
+            <node x="824.0" y="804.0">$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js</node>
+            <node x="696.0" y="1044.0">$PROJECT_DIR$/src/main/webapp/css/common.css</node>
+            <node x="354.0" y="716.0">$PROJECT_DIR$/src/main/webapp/favoriterank.html</node>
+            <node x="138.0" y="1675.0">$PROJECT_DIR$/src/main/webapp/footer.html</node>
+            <node x="771.0" y="350.0">$PROJECT_DIR$/src/main/webapp/js/getParameter.js</node>
+            <node x="363.0" y="1324.0">$PROJECT_DIR$/src/main/webapp/images/guonei_1.jpg</node>
+            <node x="770.0" y="188.0">$PROJECT_DIR$/src/main/webapp/header.html</node>
+            <node x="765.0" y="0.0">$PROJECT_DIR$/src/main/webapp/images/hot_tel.jpg</node>
+            <node x="251.0" y="1811.0">$PROJECT_DIR$/src/main/webapp/images/icon_1.jpg</node>
+            <node x="14.0" y="1566.0">$PROJECT_DIR$/src/main/webapp/images/icon_2.jpg</node>
+            <node x="249.0" y="1563.0">$PROJECT_DIR$/src/main/webapp/images/icon_3.jpg</node>
+            <node x="0.0" y="1825.0">$PROJECT_DIR$/src/main/webapp/images/icon_4.jpg</node>
+            <node x="515.0" y="1244.0">$PROJECT_DIR$/src/main/webapp/images/icon_5.jpg</node>
+            <node x="307.0" y="877.0">$PROJECT_DIR$/src/main/webapp/images/icon_6.jpg</node>
+            <node x="482.0" y="1479.0">$PROJECT_DIR$/src/main/webapp/images/icon_7.jpg</node>
+            <node x="743.0" y="724.0">$PROJECT_DIR$/src/main/webapp/js/include.js</node>
+            <node x="265.0" y="986.0">$PROJECT_DIR$/src/main/webapp/css/index.css</node>
+            <node x="464.0" y="1056.0">$PROJECT_DIR$/src/main/webapp/index.html</node>
+            <node x="0.0" y="1014.0">$PROJECT_DIR$/src/main/webapp/images/jiangwai_1.jpg</node>
+            <node x="238.0" y="1142.0">$PROJECT_DIR$/src/main/webapp/images/jiangxuan_1.jpg</node>
+            <node x="122.0" y="1404.0">$PROJECT_DIR$/src/main/webapp/images/jiangxuan_2.jpg</node>
+            <node x="163.0" y="797.0">$PROJECT_DIR$/src/main/webapp/images/jiangxuan_4.jpg</node>
+            <node x="1176.0" y="936.0">$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.0.min.js</node>
+            <node x="577.0" y="844.0">$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js</node>
+            <node x="1155.0" y="1097.0">$PROJECT_DIR$/src/main/webapp/css/login.css</node>
+            <node x="950.0" y="884.0">$PROJECT_DIR$/src/main/webapp/login.html</node>
+            <node x="1009.0" y="700.0">$PROJECT_DIR$/src/main/webapp/images/login_logo.png</node>
+            <node x="563.0" y="160.0">$PROJECT_DIR$/src/main/webapp/images/logo.jpg</node>
+            <node x="452.0" y="957.0">$PROJECT_DIR$/src/main/webapp/myfavorite.html</node>
+            <node x="1789.0" y="96.0">$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;</node>
+            <node x="126.0" y="606.0">$PROJECT_DIR$/src/main/webapp/css/ranking-list.css</node>
+            <node x="832.0" y="1319.0">$PROJECT_DIR$/src/main/webapp/css/register.css</node>
+            <node x="849.0" y="1148.0">$PROJECT_DIR$/src/main/webapp/register.html</node>
+            <node x="565.0" y="1149.0">$PROJECT_DIR$/src/main/webapp/register_ok.html</node>
+            <node x="904.0" y="430.0">$PROJECT_DIR$/src/main/webapp/css/route-detail.css</node>
+            <node x="792.0" y="620.0">$PROJECT_DIR$/src/main/webapp/route_detail.html</node>
+            <node x="491.0" y="620.0">$PROJECT_DIR$/src/main/webapp/route_list.html</node>
+            <node x="574.0" y="366.0">$PROJECT_DIR$/src/main/webapp/css/search.css</node>
+            <node x="306.0" y="511.0">$PROJECT_DIR$/src/main/webapp/images/search.png</node>
+            <node x="1006.0" y="168.0">$PROJECT_DIR$/src/main/webapp/images/top_banner.jpg</node>
+            <node x="1541.0" y="188.0">affix.js</node>
+            <node x="2049.0" y="373.0">alert.js</node>
+            <node x="1858.0" y="539.0">button.js</node>
+            <node x="1540.0" y="493.0">carousel.js</node>
+            <node x="1009.0" y="1228.0">checkCodeServlet</node>
+            <node x="1699.0" y="478.0">collapse.js</node>
+            <node x="1866.0" y="0.0">dropdown.js</node>
+            <node x="1038.0" y="510.0">http://www.jinmalvyou.com/Public/uploads/goods_img/img_size4/201703/m49788843d72171643297ccc033d9288ee.jpg</node>
+            <node x="1203.0" y="799.0">js/angular.min.js</node>
+            <node x="1998.0" y="485.0">modal.js</node>
+            <node x="2054.0" y="232.0">popover.js</node>
+            <node x="1990.0" y="87.0">scrollspy.js</node>
+            <node x="1588.0" y="61.0">tab.js</node>
+            <node x="1710.0" y="8.0">tooltip.js</node>
+            <node x="1470.0" y="383.0">transition.js</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="checkCodeServlet">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/js/getParameter.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/css/ranking-list.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/activate_ok.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="checkCodeServlet">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="dropdown.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register_ok.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register_ok.html" target="$PROJECT_DIR$/src/main/webapp/css/register.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="transition.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangxuan_4.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="affix.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="$PROJECT_DIR$/src/main/webapp/css/register.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/header.html" target="$PROJECT_DIR$/src/main/webapp/images/hot_tel.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/css/index.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_7.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangxuan_4.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register_ok.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/banner_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="alert.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-1.11.0.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/images/login_logo.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_6.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/footer.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/header.html" target="$PROJECT_DIR$/src/main/webapp/images/top_banner.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/banner_3.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/header.html" target="$PROJECT_DIR$/src/main/webapp/images/logo.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="popover.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/css/search.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/banner_2.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="$PROJECT_DIR$/src/main/webapp/css/login.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_5.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/header.html" target="$PROJECT_DIR$/src/main/webapp/js/getParameter.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangwai_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/login.html" target="js/angular.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="http://www.jinmalvyou.com/Public/uploads/goods_img/img_size4/201703/m49788843d72171643297ccc033d9288ee.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangxuan_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/footer.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_3.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_detail.html" target="$PROJECT_DIR$/src/main/webapp/css/route-detail.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/footer.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_2.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="modal.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/images/04-search_09.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_5.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/jiangxuan_2.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/js/getParameter.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/images/guonei_1.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="button.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/myfavorite.html" target="$PROJECT_DIR$/src/main/webapp/css/index.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/favoriterank.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register_ok.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="tab.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="tooltip.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/index.html" target="$PROJECT_DIR$/src/main/webapp/js/include.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/register.html" target="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="scrollspy.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/css/common.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/route_list.html" target="$PROJECT_DIR$/src/main/webapp/images/search.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="carousel.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/js/npm.js#affix.js#456;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#alert.js#150;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#button.js#179;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#carousel.js#209;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#collapse.js#241;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#dropdown.js#273;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#modal.js#305;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#popover.js#365;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#scrollspy.js#396;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tab.js#429;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#tooltip.js#334;C:/Users/CZQYY/IdeaProjects/javaweb_study2/travel/src/main/webapp/js/npm.js#transition.js#116;" target="collapse.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/src/main/webapp/footer.html" target="$PROJECT_DIR$/src/main/webapp/images/icon_4.jpg">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.351380042462845" x="133.0" y="673.0" />
+          <SelectedNodes>
+            <node>js/angular.min.js</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="391.0" y="420.0">com</node>
+            <node x="449.0" y="252.0">images</node>
+            <node x="297.0" y="168.0">netscape</node>
+            <node x="210.0" y="336.0">junit</node>
+            <node x="0.0" y="504.0">org</node>
+            <node x="0.0" y="588.0">junit3.8.1</node>
+            <node x="543.0" y="504.0">cn</node>
+            <node x="0.0" y="84.0">toolbarButtonGraphics</node>
+            <node x="181.0" y="504.0">sun</node>
+            <node x="410.0" y="336.0">redis</node>
+            <node x="362.0" y="504.0">jdk</node>
+            <node x="0.0" y="252.0">META-INF</node>
+            <node x="0.0" y="168.0">groovyjarjarasm</node>
+            <node x="200.0" y="420.0">java</node>
+            <node x="0.0" y="336.0">groovy</node>
+            <node x="0.0" y="420.0">javax</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="229.0" y="252.0">support</node>
+            <node x="355.0" y="84.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="2.0" y="239.0" />
+          <SelectedNodes>
+            <node>junit3.8.1</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.travel.dao.CategoryDao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.travel.dao.CategoryDao</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.itcast.travel.dao.CategoryDao</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="20.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/itcast/travel/dao/RouteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.travel.dao.RouteDao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.travel.dao.RouteDao</OriginalElement>
+          <nodes>
+            <node x="0.0" y="89.0">cn.itcast.travel.dao.impl.RouteDaoImpl</node>
+            <node x="19.5" y="0.0">cn.itcast.travel.dao.RouteDao</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.itcast.travel.dao.impl.RouteDaoImpl" target="cn.itcast.travel.dao.RouteDao">
+              <point x="0.0" y="-19.5" />
+              <point x="0.0" y="19.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-271.0" y="-71.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.travel.web.servlet.BaseServlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.travel.web.servlet.BaseServlet</OriginalElement>
+          <nodes>
+            <node x="315.0" y="0.0">javax.servlet.ServletConfig</node>
+            <node x="162.5" y="178.0">javax.servlet.http.HttpServlet</node>
+            <node x="157.5" y="356.0">cn.itcast.travel.web.servlet.RouteServlet</node>
+            <node x="182.0" y="0.0">javax.servlet.Servlet</node>
+            <node x="148.0" y="89.0">javax.servlet.GenericServlet</node>
+            <node x="162.5" y="267.0">cn.itcast.travel.web.servlet.BaseServlet</node>
+            <node x="0.0" y="0.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.itcast.travel.web.servlet.RouteServlet" target="cn.itcast.travel.web.servlet.BaseServlet">
+              <point x="0.0" y="-19.5" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="java.io.Serializable">
+              <point x="-60.33333333333334" y="-19.5" />
+              <point x="178.16666666666666" y="64.0" />
+              <point x="81.0" y="64.0" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="javax.servlet.http.HttpServlet" target="javax.servlet.GenericServlet">
+              <point x="0.0" y="-19.5" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="cn.itcast.travel.web.servlet.BaseServlet" target="javax.servlet.http.HttpServlet">
+              <point x="0.0" y="-19.5" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="javax.servlet.Servlet">
+              <point x="0.0" y="-19.5" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="javax.servlet.GenericServlet" target="javax.servlet.ServletConfig">
+              <point x="60.333333333333314" y="-19.5" />
+              <point x="298.8333333333333" y="64.0" />
+              <point x="400.5" y="64.0" />
+              <point x="0.0" y="19.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-90.0" y="82.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.travel.web.servlet">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.travel.web.servlet</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.itcast.travel.web.servlet.CheckCodeServlet</node>
+            <node x="" y="">cn.itcast.travel.web.servlet.RouteServlet</node>
+            <node x="" y="">cn.itcast.travel.web.servlet.BaseServlet</node>
+            <node x="" y="">cn.itcast.travel.web.servlet.UserServlet</node>
+            <node x="" y="">cn.itcast.travel.web.servlet.CategoryServlet</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9" x="-97.0" y="5.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.travel.service">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.travel.service</OriginalElement>
+          <nodes>
+            <node x="" y="">cn.itcast.travel.dao.UserDao</node>
+            <node x="" y="">cn.itcast.travel.dao.SellerDao</node>
+            <node x="" y="">cn.itcast.travel.dao.impl.RouteImgDaoImpl</node>
+            <node x="" y="">cn.itcast.travel.service.RouteService</node>
+            <node x="" y="">cn.itcast.travel.dao.RouteImgDao</node>
+            <node x="" y="">cn.itcast.travel.service.impl</node>
+            <node x="" y="">cn.itcast.travel.service.UserService</node>
+            <node x="" y="">cn.itcast.travel.service.CategoryService</node>
+            <node x="" y="">cn.itcast.travel.dao.FavoriteDao</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="331.0" y="499.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>public</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.travel.dao.impl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.travel.dao.impl</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">cn.itcast.travel.dao</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-141.0" y="220.0" />
+          <SelectedNodes>
+            <node>cn.itcast.travel.dao</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/cn.itcast.travel.dao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>cn.itcast.travel.dao</OriginalElement>
+          <nodes>
+            <node x="812.0" y="0.0">cn.itcast.travel.dao.UserDao</node>
+            <node x="516.0" y="0.0">cn.itcast.travel.dao.SellerDao</node>
+            <node x="344.0" y="0.0">cn.itcast.travel.dao.RouteImgDao</node>
+            <node x="428.2499999999999" y="99.0">cn.itcast.travel.dao.impl</node>
+            <node x="172.0" y="0.0">cn.itcast.travel.dao.CategoryDao</node>
+            <node x="0.0" y="0.0">cn.itcast.travel.dao.FavoriteDao</node>
+            <node x="669.0" y="0.0">cn.itcast.travel.dao.RouteDao</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cn.itcast.travel.dao.impl" target="cn.itcast.travel.dao.UserDao">
+              <point x="60.83333333333343" y="-19.5" />
+              <point x="562.0833333333334" y="79.0" />
+              <point x="868.5" y="79.0" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="cn.itcast.travel.dao.impl" target="cn.itcast.travel.dao.RouteDao">
+              <point x="36.50000000000006" y="-19.5" />
+              <point x="537.75" y="69.0" />
+              <point x="730.5" y="69.0" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="cn.itcast.travel.dao.impl" target="cn.itcast.travel.dao.CategoryDao">
+              <point x="-36.49999999999994" y="-19.5" />
+              <point x="464.75" y="69.0" />
+              <point x="248.0" y="69.0" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="cn.itcast.travel.dao.impl" target="cn.itcast.travel.dao.FavoriteDao">
+              <point x="-60.83333333333326" y="-19.5" />
+              <point x="440.41666666666663" y="79.0" />
+              <point x="76.0" y="79.0" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="cn.itcast.travel.dao.impl" target="cn.itcast.travel.dao.RouteImgDao">
+              <point x="-12.166666666666572" y="-19.5" />
+              <point x="489.08333333333337" y="59.0" />
+              <point x="420.0" y="59.0" />
+              <point x="0.0" y="19.5" />
+            </edge>
+            <edge source="cn.itcast.travel.dao.impl" target="cn.itcast.travel.dao.SellerDao">
+              <point x="12.166666666666686" y="-19.5" />
+              <point x="513.4166666666666" y="59.0" />
+              <point x="582.5" y="59.0" />
+              <point x="0.0" y="19.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="463.0" y="69.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
